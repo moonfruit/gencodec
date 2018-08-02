@@ -180,7 +180,7 @@ func (s *fileScope) writeImportDecl(w io.Writer) {
 
 func removeVendor(path string) string {
 	const (
-		vendor = "/vendor/"
+		vendor    = "/vendor/"
 		vendorPad = len(vendor) - 1
 	)
 
